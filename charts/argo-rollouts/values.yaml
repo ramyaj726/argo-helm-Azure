@@ -406,3 +406,7 @@ notifications:
   # trigger.on-purple: |
   #   - send: [my-purple-template]
   #     when: rollout.spec.template.spec.containers[0].image == 'argoproj/rollouts-demo:purple'
+server:
+  image:
+    repository: nexus-tegfx9re.prodqa.opsera.io/docker-repo
+    tag: argorollbackprodtest2
